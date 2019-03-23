@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PresenterView</class>
+ <widget class="QWidget" name="PresenterView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>304</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="questionList">
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>text</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>answer</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>score</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="idLabel">
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="idBox"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="textLabel">
+     <property name="text">
+      <string>TEXT</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="textBox"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="answerLabel">
+     <property name="text">
+      <string>ANSWER</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="answerBox"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="scoreLabel">
+     <property name="text">
+      <string>SCORE</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="scoreBox"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="addButton">
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

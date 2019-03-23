@@ -1,0 +1,5 @@
+2,founding year of ONU,1945,20
+3,square root of 625,25,15
+0,largest animal on the planet,blue whale,12
+1,capital of Bulgaria,Sofia,10
+4,capital of Italy,Rome,17
